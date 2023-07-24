@@ -1,0 +1,43 @@
+.reserv {
+  height: calc(100vh - 5rem);
+  background-color: #495e57;
+}
+.cnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: none;
+}
+button {
+  height: 3rem;
+  width: 3rem;
+  background-color: #ecdda1;
+  color: #495e57;
+  font-size: 2rem;
+  border-radius: 50px;
+}
+button:active {
+  color: #ecdda1;
+  background-color: #495e57;
+}
+.req {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input[type="text"]:focus {
+  outline: 2px solid #ecdda1;
+}
+input[type="date"]:focus {
+  outline: 2px solid #ecdda1;
+}
+input[type="time"]:focus {
+  outline: 2px solid #ecdda1;
+}
+::placeholder {
+  color: #495e57;
+  font-weight: bold;
+  opacity: 1;
+}

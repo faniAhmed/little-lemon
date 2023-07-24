@@ -1,26 +1,28 @@
-.last{
-    height: 92vh;
-    background-color: #495e57;
+*{
+    box-sizing: border-box;
 }
-.logos{
+.start{
+    height: calc(100vh - 5 REM);
+}
+body{
+    margin: 0;
+}
+.start{
+    padding: 2rem;
+}
+h1{
+    font-size: 40px;
     display: flex;
     justify-content: center;
-    align-content: center;
-    padding-top:  6rem;
+    color: #ecdda1;
 }
-.logo{
-    height: 14rem;
-}
-.cont{
+h2, p{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    /* width: 30rem; */
+    color: white;
 }
-.butn{
-    display: flex;
-    justify-content: center;
-    align-content: center;
+h2{
+    font-size: 30px;
 }
 .links{
     background-color: #ecdda1;
@@ -39,4 +41,14 @@
 .links:hover{
     background-color: #495e57;
     color: #ecdda1;
+}
+Card{
+    background-color: #ecdda1;
+    display: block;
+    justify-content: center;
+}
+.allc{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
 }
